@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #dda0dd;
+    color: #9370db;
+    flex-wrap: wrap;
+}
+
+h1 {
+    background-color: #d8bfd8;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-content: center;
+}
+
+
+
+p {
+    color: aliceblue;
+    display: flex;
+    font-size: 16px;
+    margin: 15px 30px;
+}
+
+
+
+section {
+    display: flex;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+
+/* clases */
+
+.texto-centrado {
+    text-align: center;
+
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}  
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 10px 20px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    gap: 24px;
+    color: #9370db;  
+}
+
+.list-item {
+    list-style: none;
+}
+
+.list-up {
+    list-style: none;
+}
+
+.list-up a {
+    text-decoration: none;
+    color: #9370db;
+
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #9370db;
+}
+
+.space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    
+
+}
+
+
+
+.inside ul {
+    text-align:center;
+    list-style: none;
+    padding: 15px 30px;
+    margin: 15px 30px;
+    font-size: 20px;
+    
+}
