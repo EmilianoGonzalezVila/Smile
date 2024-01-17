@@ -53,12 +53,50 @@
       <h3>
           Datos del paciente
       </h3>
-  
-  <form action="form.php" method="post">
-  
-          <label for="Tipo"></label>
-          <input type="text" name="" id="">
-  </form>
+
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Jhon" required>
+          <div class="valid-feedback">
+            ¡El nombre pertenece a un paciente ya registrado!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Doe" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Número de celular</label>
+          <div class="input-group has-validation">
+            <input type="tel" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="2616440202">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Domicilio</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Por favor indique su domicilio.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Provincia</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Seleccione su provincia</option>
+            <option>Mendoza</option>
+            <option>Buenos Aires</option>
+            <option>San Luis</option>
+            <option>Córdoba</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Obra Social</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          </div>
+        <div class="col-12">
+          <input type="button" value="Enviar">
+        </div>
+      </form>
       
     </main>
   
