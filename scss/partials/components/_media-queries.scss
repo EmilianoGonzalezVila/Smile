@@ -1,0 +1,183 @@
+//Breakpoint Mobile
+
+@media (max-width: 425px) {
+
+    h1 {
+        display: none;
+        
+    }
+
+    .none-img {
+        display: none;
+    }
+
+    .navbar {
+        margin: 20px 0px;
+        background-color: #d8bfd8;
+    }
+   
+    .inside {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-template-areas: 
+        "h3-1"
+        "p"
+        "p"
+        "h3-2"
+        "div"
+        "div"
+        "h3-3"
+        "ul"
+        "ul";
+    }
+
+    .image {
+        flex-wrap: wrap;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "primer-parraf"
+        "div"
+        "segundo-parraf";
+
+        p {
+            font-size: 10px;
+            margin: 0px;
+            border: 1px solid black;
+        }
+        
+
+        .imagen {
+            display: none;
+        }
+
+        .div {
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .borde {
+        margin: 0px 0px 40px 0px;
+    }
+
+    .grilla {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "form"
+        "mapa";
+
+        .form {
+            overflow-x: hidden;
+        }
+        .mapa {
+            width: 100%;
+            height: 200px;
+        }
+    }
+
+
+
+
+
+}
+
+//Breakpoint tablet
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    h1 {
+        display: none;
+        
+        
+    }
+
+    .none-img {
+        display: none;
+    }
+
+    .navbar {
+        
+        margin: 20px 0px;
+        background-color: #d8bfd8;
+        
+    }
+   
+    .inside {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-template-areas: 
+        "h3-1"
+        "p"
+        "p"
+        "h3-2"
+        "div"
+        "div"
+        "h3-3"
+        "ul"
+        "ul";
+    }
+
+    .image {
+        flex-wrap: wrap;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "primer-parraf"
+        "div"
+        "segundo-parraf";
+
+        p {
+            font-size: 20px;
+        }
+        
+
+        .imagen {
+            display: none;
+        }
+    }
+
+    .borde {
+        margin: 0px 0px 145px 0px;
+    }
+
+    .grilla {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "form"
+        "mapa";
+        
+        
+        .mapa {
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+
+
+}
+
+//Breakpoint netbooks
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+

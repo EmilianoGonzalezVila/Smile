@@ -1,0 +1,190 @@
+.texto-centrado {
+    text-align: center;
+    margin: 50px 0px;
+
+}
+
+.list-item {
+    list-style: none;
+}
+
+.list-up {
+    list-style: none;
+}
+
+.list-up {
+    a {
+        text-decoration: none;
+        color: #9370db;
+    }    
+
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #9370db;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    
+    
+    
+    
+}
+
+
+
+.inside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "h3-1 h3-2 h3-3"
+    "p div ul"
+    "p div ul";
+    justify-content: space-around;
+
+
+    .h3-1 {
+        grid-area: h3-1;
+    }
+
+    .h3-2 {
+        grid-area: h3-2;
+    }
+
+    .h3-3 {
+        grid-area: h3-3;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        padding: 60px 20px;
+        margin: 30px 50px;
+        border: 5px solid black;
+        border-radius: 10px;
+        background-color: #d8bfd8;
+        grid-area: p;
+        
+
+    }
+    
+    div {
+        display: flex;
+        flex-direction: row;
+        padding: 30px 0px;
+        justify-content: center;
+        grid-area: div;
+        
+        
+        
+    }
+
+    ul {
+
+        list-style: none;
+        padding: 50px 50px;
+        margin: 30px 50px;
+        font-size: 20px;
+        color: black;
+        border: 5px solid black;
+        border-radius: 10px;
+        background-color: #d8bfd8;
+        grid-area: ul;
+    }
+
+
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "primer-parraf div"
+    "img segundo-parraf";
+    
+
+    p {
+        text-align:justify;
+        padding: 100px 20px;
+        border: 5px solid black;
+        border-radius: 5px;
+        background-color: #d8bfd8;
+        color: black;
+        
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px 20px 70px;
+        
+        
+    }
+}
+
+.form-div {
+    max-width: 100%;
+
+}
+
+.form-turno {
+    margin: 20px 30px;
+}
+
+.borde {
+    border: solid 5px black;
+    margin: 50px 50px;
+    background-color: #d8bfd8;
+
+    h3 {
+        padding: 50px;
+    }
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    "form mapa";
+
+    .form {
+        margin: 50px 50px;
+
+        
+        
+        
+        
+    }
+
+    .mapa {
+        margin: 50px 0px;
+    }
+    
+    
+}

@@ -1,0 +1,33 @@
+
+h1 {
+    background-color: #d8bfd8;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    padding: 10px 20px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    gap: 24px;
+    color: #9370db;
+    text-decoration: none;
+    font-size: 20px;  
+}
+
+.navbar a:hover {
+    background-color: #d8bfd8;
+    border: 1px solid #7049be;
+    border-radius: 10px;
+    
+
+}
+
