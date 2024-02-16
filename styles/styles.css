@@ -185,6 +185,66 @@ h1 {
   margin: 50px 0px;
 }
 
+.grid-especialidades {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "endo ort perio" "a1 a2 a3" "pedi ciru imp" "a4 a5 a6";
+}
+.grid-especialidades a {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px 60px 0px;
+}
+.grid-especialidades .endo {
+  grid-area: endo;
+}
+.grid-especialidades .ort {
+  grid-area: ort;
+}
+.grid-especialidades .perio {
+  grid-area: perio;
+}
+.grid-especialidades .pedi {
+  grid-area: pedi;
+}
+.grid-especialidades .ciru {
+  grid-area: ciru;
+}
+.grid-especialidades .imp {
+  grid-area: imp;
+}
+.grid-especialidades .a1 {
+  grid-area: a1;
+}
+.grid-especialidades .a2 {
+  grid-area: a2;
+}
+.grid-especialidades .a3 {
+  grid-area: a3;
+}
+.grid-especialidades .a4 {
+  grid-area: a4;
+}
+.grid-especialidades .a5 {
+  grid-area: a5;
+}
+.grid-especialidades .a6 {
+  grid-area: a6;
+}
+.grid-especialidades img {
+  border: solid 5px white;
+}
+.grid-especialidades .link-text {
+  display: flex;
+  text-decoration: none;
+  color: #9370db;
+  font-size: 20px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+}
+
 h4 {
   display: flex;
   flex-direction: row;
@@ -218,6 +278,10 @@ footer a {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(9, 1fr);
     grid-template-areas: "h3-1" "p" "p" "h3-2" "div" "div" "h3-3" "ul" "ul";
+  }
+  .inside div {
+    width: 400px;
+    height: 200px;
   }
   .image {
     flex-wrap: wrap;
@@ -256,6 +320,15 @@ footer a {
   .grilla .mapa {
     width: 100%;
     height: 200px;
+  }
+  .grid-especialidades {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: "endo" "a1" "ort" "a2" "perio" "a3" "pedi" "a4" "ciru" "a5" "imp" "a6";
+  }
+  .grid-especialidades h4 {
+    font-size: 30px;
   }
 }
 @media (min-width: 426px) and (max-width: 768px) {
@@ -302,6 +375,9 @@ footer a {
   .grilla .mapa {
     width: 100%;
     height: 300px;
+  }
+  .grid-especialidades {
+    gap: 20px;
   }
 }
 

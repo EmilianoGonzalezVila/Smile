@@ -188,3 +188,92 @@
     
     
 }
+
+.grid-especialidades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "endo ort perio"
+    "a1 a2 a3"
+    "pedi ciru imp"
+    "a4 a5 a6";
+    
+    a {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 0px 60px 0px;
+        
+    }
+
+    .endo {
+        grid-area: endo;
+    }
+
+    .ort {
+        grid-area: ort;
+    }
+
+  
+    .perio {
+        grid-area: perio;
+    }
+    
+    .pedi {
+        grid-area: pedi;
+    }
+
+    .ciru {
+        grid-area: ciru;
+    }
+
+    .imp {
+        grid-area: imp;
+    }
+
+    .a1 {
+        grid-area: a1;
+
+    }
+    
+    .a2 {
+        grid-area: a2;
+    }
+
+    .a3 {
+        grid-area: a3;
+    }
+
+    .a4 {
+        grid-area: a4;
+    }
+
+    .a5 {
+        grid-area: a5;
+    }
+
+    .a6 {
+        grid-area: a6;
+    }
+
+    img {
+        border: solid 5px white;
+    }
+
+    .link-text {
+        display: flex;
+        text-decoration: none;
+        color: #9370db;
+        font-size: 20px;
+        font-weight: bold;
+        top: 50%;
+        left: 50%;
+        
+    }
+    
+}
+
+
+
+
+

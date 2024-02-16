@@ -29,6 +29,11 @@
         "h3-3"
         "ul"
         "ul";
+        
+        div {
+            width: 400px;
+            height: 200px;
+        }
     }
 
     .image {
@@ -83,6 +88,31 @@
             height: 200px;
         }
     }
+
+    .grid-especialidades {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-areas: 
+        "endo"
+        "a1" 
+        "ort"
+        "a2"
+        "perio"
+        "a3"
+        "pedi"
+        "a4"
+        "ciru"
+        "a5"
+        "imp"
+        "a6";
+
+        h4 {
+            font-size: 30px;
+        }
+    }    
+
+
 
 
 
@@ -169,6 +199,11 @@
             width: 100%;
             height: 300px;
         }
+    }
+
+    .grid-especialidades {
+
+        gap: 20px;
     }
 
 
